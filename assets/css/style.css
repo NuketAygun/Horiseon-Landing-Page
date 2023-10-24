@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Header Codes*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,10 +46,11 @@ a {
     text-decoration: none;
 }
 
+/* Text Code*/
 p {
     font-size: 20px;
 }
-
+/* Header Image codes */
 #hero {
     height: 800px;
     width: 100%;
@@ -59,17 +60,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-
+/* Aside Codes*/
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -80,6 +71,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .benefit1{
@@ -98,7 +90,7 @@ p {
     margin: 10px auto;
     max-width: 150px; 
 }
-
+/* Content codes*/
 .content {
     width: 75%;
     display: inline-block;
@@ -106,12 +98,13 @@ p {
     margin-bottom: 20px;
 }
 .content1{
-    margin-bottom: 40px;
-    padding: 50px;
-    height: 300px;
+    margin-bottom: 20px;
+    padding: 60px;
+    height: 340px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;   
+    color: #ffffff;  
+    margin-right: -10px; 
 }
 
 .content1 img{
@@ -121,4 +114,14 @@ p {
 .content1 h2{
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
